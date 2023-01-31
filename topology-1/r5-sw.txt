@@ -4,16 +4,12 @@ vrf definition v1
  rd 1:1
  exit
 !
-int lo0
- vrf forwarding v1
- ipv4 addr 2.2.2.5 255.255.255.255
- ipv6 addr 4321::5 ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
- exit
-!
 int eth1
  vrf forwarding v1
  ipv4 addr 10.0.4.2 255.255.255.252
  ipv6 addr 2017:548:4::2 ffff:ffff:ffff:ffff::
+ no shutdown
+ no log-link-change
  exit
 !
 ipv4 route v1 0.0.0.0 0.0.0.0 10.0.4.1
@@ -28,3 +24,4 @@ server telnet tel
  vrf v1
  exit
 !
+end
