@@ -20,6 +20,7 @@ ipv4 route v1 0.0.0.0 0.0.0.0 10.0.1.2
 !
 ipv6 route v1 :: :: 2017:548:1::2
 !
+!
 server telnet tel
  security protocol telnet
  no exec authorization
