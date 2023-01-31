@@ -24,7 +24,7 @@
 
 ## Topology 2 - RIP
 
-![image](https://user-images.githubusercontent.com/61244675/215613685-e55b1ffa-e993-4d58-ac69-4984b10b3149.png)
+![image](https://user-images.githubusercontent.com/61244675/215677447-f638ef06-a476-486e-94e1-e0b0bc544593.png)
 
 **R1**
 `eth1: 175.48.1.1 | 2017:548:1::1`
